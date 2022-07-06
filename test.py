@@ -1,8 +1,7 @@
 
-print("lol")
 
-# ive made some changes to improve readability
+def greeting(name):
+    return f"Hello {name}"
 
-name = "Alex"
 
-# new change
+print(greeting("Jonas"))
